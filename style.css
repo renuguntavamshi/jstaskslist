@@ -1,0 +1,33 @@
+li{
+    list-style-type: none;
+}
+#popup1,#popup2{
+    background: rgb(104, 84, 84);
+    position: absolute;
+    left:50%;
+    top:50%;
+   transform: translate(-50%,-50%); 
+   padding: 30px;
+   display: none;
+}
+/* #popup2{
+    background: rgb(104, 84, 84);
+    position: absolute;
+    left:50%;
+    top:50%;
+   transform: translate(-50%,-50%); 
+   padding: 30px;
+ } */
+#maincontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cards{
+    
+    width:300px;
+    height:300px;
+    background-color: aquamarine;
+    text-align: center;
+    margin-bottom:10px;
+}

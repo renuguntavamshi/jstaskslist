@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav">
+        <h1 style="float:left">Tasks List</h1>
+        <h1 style="float:right ;"><button onclick="displaypopup1()">Add Items</button></h1>
+        <h2 style="clear: left;" id="iscardspresent">No items in the todo list</h2>
+     </nav>
+     <div id="maincontainer" style="clear: both;">
+    </div>
+     <div id="popup1" style="text-align: center;width:250px;height: 250px;">
+        <h1 style="text-align: center;">ADD TASK TITLE </h1>
+        <div><h1><input type="text" id="headingofcard"></h1> <button id="btn" onclick="pushdata()">Click me</button>
+              <button onclick="removepopup1()">Close</button>
+      </div>
+      </div> 
+      
+      <div id="popup2container"></div>
+      <div id="popup2" style="text-align: center;width:250px;height: 250px;">
+        <h1 style="text-align: center;">ADD List items </h1>
+        
+        <div>
+            <h1>
+            <input type="text" id="inputoflistitem"></h1> 
+            <button id="btn" onclick="pushitemtolist()">Click to add list items</button>
+              
+          <button onclick="removepopup2()">Close</button>
+             
+      </div>
+      </div> 
+     
+
+      <script src="script.js"></script>  
+</body>
+</html>
